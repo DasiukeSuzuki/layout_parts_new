@@ -1,5 +1,350 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
+.clearfix:after {
+  display: block;
+  clear: both;
+  content: "";
+}
+
+.Q8-btn {
+  display: inline-block;
+  text-align: center;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.is-shadow {
+  box-shadow: 0 1px 6px rgba(0,0,0,.12),0 1px 4px rgba(0,0,0,.12)
+}
+/* small-btn */
+.Q8-small-btn {
+  padding: 5px 15px;
+  border-radius: 3px;
+  font-size: 16px;
+  line-height: 16px;
+}
+
+.Q8-small-btn:first-of-type {
+  margin-left: 0;
+}
+
+.Q8-small-btn-common {
+  background-color: #00bcd4;
+  color: white;
+}
+
+.Q8-small-btn-error {
+  background-color: #ff4081;
+  color: white;
+}
+
+.Q8-small-btn-disabled {
+  background-color: #e5e5e5;
+  color: white;
+  cursor: default;
+}
+
+.Q8-small-btn-shasdow {
+  color: #222;
+}
+/* middle-btn */
+.Q8-middle-btn {
+  padding: 6px 20px;
+  border-radius: 5px;
+  font-size: 20px;
+  line-height: 20px;
+}
+
+.Q8-middle-btn:first-of-type {
+  margin-left: 0;
+}
+
+.Q8-middle-btn-common {
+  background-color: #00bcd4;
+  color: white;
+}
+
+.Q8-middle-btn-error {
+  background-color: #ff4081;
+  color: white;
+}
+
+.Q8-middle-btn-disabled {
+  background-color: #e5e5e5;
+  color: white;
+  cursor: default;
+}
+
+.Q8-middle-btn-shasdow {
+  color: #222;
+}
+
+/* large-btn */
+.Q8-large-btn {
+  padding: 7px 25px;
+  border-radius: 7px;
+  font-size: 24px;
+  line-height: 24px;
+}
+
+.Q8-large-btn:first-of-type {
+  margin-left: 0;
+}
+
+.Q8-large-btn-common {
+  background-color: #00bcd4;
+  color: white;
+}
+
+.Q8-large-btn-error {
+  background-color: #ff4081;
+  color: white;
+}
+
+.Q8-large-btn-disabled {
+  background-color: #e5e5e5;
+  color: white;
+  cursor: default;
+}
+
+.Q8-large-btn-shasdow {
+  color: #222;
+}
+
+/* form */
+
+.Q8 {
+  margin-top: 20px;
+}
+
+.Q8-form {
+  width: 700px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #ECF1F2;
+}
+.Q8-form-title {
+  position: relative;
+  margin-bottom: 20px;
+}
+.Q8-form-title:before {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background-color: #ccc;
+  content: "";
+}
+
+.Q8-form-title-text {
+  position: relative;
+  display: inline-block;
+  padding-right: 10px;
+  background-color: #ECF1F2;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.Q8-form-main {
+  float: left;
+  width: 300px;
+}
+
+.Q8-form-main-items {
+  margin-bottom: 20px;
+}
+
+.Q8-form-main-items > li:first-child {
+  margin-top: 0;
+}
+
+.Q8-form-main-items > li {
+  margin-top: 20px;
+}
+
+.Q8-form-main-items-title {
+  float: left;
+  width: 100px;
+  line-height: 25px;
+  text-align: right;
+}
+
+.Q8-form-main-items-title .required {
+  color: #f00;
+}
+
+.Q8-form-main-content {
+  float: right;
+  width: 180px;
+}
+
+.Q8-input-init { 
+  padding: 0;
+  background: #fff;
+  border: none;
+  border-radius: 0;
+  font-size: 16px;
+  outline: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+.Q8-input {
+  width: 100%;
+  padding: 5px;
+  border-radius: 3px;
+  background-color: #FFF;
+  font-size: 12px;
+  line-height: 12px;
+  box-sizing: border-box;
+}
+
+.Q8-input:focus {
+  box-shadow: 0 0 7px #00BCD4;
+}
+
+.Q8-radio {
+  cursor: pointer;
+}
+
+.radio-btn {
+  display: none;
+}
+
+.Q8-radio-text {
+  position: relative;
+  display: inline-block;
+  padding: 3px 3px 3px 20px;
+}
+
+.Q8-radio-text:before {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 14px;
+  height: 14px;
+  margin-top: -8px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  content: '';
+}
+
+.radio-btn:checked + .Q8-radio-text:after {
+  position: absolute;
+  top: 50%;
+  left: 4px;
+  width: 8px;
+  height: 8px;
+  margin-top: -4px;
+  background-color: #00BCD4;
+  border-radius: 50%;
+  content: '';
+}
+
+.Q8-select {
+  position: relative;
+}
+
+.Q8-select:after {
+  display: block;
+  position: absolute;
+  top: 4px;
+  right: 10px;
+  width: 8px;
+  height: 8px;
+  border-right: 2px solid #E5E5E5;
+  border-bottom: 2px solid #E5E5E5;
+  transform: rotate(45deg);
+  content: "";
+  pointer-events: none;
+}
+
+.Q8-select-body {
+  width: 100%;
+  padding: 5px;
+  border-radius: 3px;
+  background-color: #FFF;
+  font-size: 12px;
+  line-height: 12px;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+
+.Q8-checkbox {
+  text-align: right;
+}
+.Q8-check-btn {
+  display: none;
+}
+.Q8-checkbox-text {
+  position: relative;
+  display: inline-block;
+  padding-left: 24px;
+}
+.Q8-checkbox-text:before {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 16px;
+  height: 16px;
+  margin-top: -9px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  content: '';
+}
+
+.Q8-check-btn:checked + .Q8-checkbox-text:after {
+  position: absolute;
+  top: 50%;
+  left: 6px;
+  margin-top: -14px;
+  width: 8px;
+  height: 16px;
+  border-right: 3px solid #00BCD4;
+  border-bottom: 3px solid #00BCD4;
+  transform: rotate(45deg);
+  content: '';
+}
+
+
+.Q8-main-bottom {
+  text-align: right;
+}
+.Q8-main-bottom-btn {
+  padding: 0 10px;
+  border-radius: 5px;
+  background-color: #00BCD4;
+  color: #FFF;
+  cursor: pointer;
+  font-size: 16px;
+  line-height: 26px;
+}
+.Q8-main-bottom-btn:active {
+  background-color: #FFF;
+  color: #00BCD4;
+}
+.Q8-side {
+  float: right;
+  width: 380px;
+}
+.Q8-side-text {
+  width: 100%;
+  height: 203px;
+  padding: 10px;
+  border-radius: 3px;
+  background-color: #FFF;
+  font-size: 12px;
+  box-sizing: border-box;
+  resize: none;
+}
+.Q8-side-text:focus {
+  box-shadow: 0 0 7px #00BCD4;
+}
+
+
 
 /* 回答はここに書いてね */
