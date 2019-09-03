@@ -28,7 +28,7 @@
 .q9-item:hover .q9-desc{
   bottom: 0;
 }
-.q9-desc-desc {
+.q9-desc-text {
   position: absolute;
   bottom: 0;
   left: 0;
