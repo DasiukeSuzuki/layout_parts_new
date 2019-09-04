@@ -190,7 +190,7 @@
   content: '';
 }
 
-.radio-btn:checked + .Q8-radio-text:after {
+.radio-btn:checked + .q8-radio-text:after {
   position: absolute;
   top: 50%;
   left: 4px;
@@ -254,7 +254,7 @@
   content: '';
 }
 
-.q8-check-btn:checked + .Q8-checkbox-text:after {
+.q8-check-btn:checked + .q8-checkbox-text:after {
   position: absolute;
   top: 50%;
   left: 6px;
