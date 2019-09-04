@@ -5,14 +5,11 @@
   width: 100%;
   border: 1px solid #dedede;
   table-layout: fixed;
-}
-
-table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-th {
+.q3_contents th {
   background-color: #2244aa;
   color: #fff;
   text-align: center;
@@ -23,7 +20,7 @@ th {
   line-height: 26px;
 }
 
-td {
+.q3_contents td {
   text-align: center;
   vertical-align: middle;
   padding: 10px;

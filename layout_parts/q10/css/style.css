@@ -15,8 +15,6 @@
 .hukidashi:before,
 .hukidashi:after {
   position: absolute;
-  bottom: 0;
-  left: 0;
   width: 0;
   height: 0;
   border: 20px solid transparent;

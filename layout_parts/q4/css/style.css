@@ -23,25 +23,25 @@
   padding: 20px;
 }
 
-.table1-cell1 {
+.orange {
   background-color: #fdc8b8;
   width: 100px;
 }
-.table1-cell2 {
+.purple {
   background-color: #e0abd9;
 }
-.table1-cell3 {
+.blue {
   background-color: #b6d8ed;
   width: 100px;
 }
 
-.table2-cell1 {
+.yellow {
   background-color: #e5d32e;
 }
-.table2-cell2 {
+.red {
   background-color: #ec8f9a;
 }
-.table2-cell3 {
+.green {
   background-color: #8fdcad;
   width: 500px;
 }

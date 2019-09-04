@@ -7,7 +7,7 @@
   content: "";
 }
 
-.Q8-btn {
+.q8-btn {
   display: inline-block;
   text-align: center;
   cursor: pointer;
@@ -18,112 +18,74 @@
   color: #fff;
 }
 
+.is-common {
+  background-color: #00bcd4;
+}
+
+.is-error {
+  background-color: #ff4081;
+}
+
+.is-disabled {
+  background-color: #e5e5e5;
+  cursor: default;
+}
 .is-shadow {
   box-shadow: 0 1px 6px rgba(0,0,0,.12),0 1px 4px rgba(0,0,0,.12)
 }
+.btn-shasdow {
+  color: #222;
+}
 /* small-btn */
-.Q8-small-btn {
+.q8-small-btn {
   padding: 5px 15px;
   border-radius: 3px;
   font-size: 16px;
   line-height: 16px;
 }
 
-.Q8-small-btn:first-of-type {
+.q8-small-btn:first-of-type {
   margin-left: 0;
 }
-
-.Q8-small-btn-common {
-  background-color: #00bcd4;
-}
-
-.Q8-small-btn-error {
-  background-color: #ff4081;
-}
-
-.Q8-small-btn-disabled {
-  background-color: #e5e5e5;
-  cursor: default;
-}
-
-.Q8-small-btn-shasdow {
-  color: #222;
-}
 /* middle-btn */
-.Q8-middle-btn {
+.q8-middle-btn {
   padding: 6px 20px;
   border-radius: 5px;
   font-size: 20px;
   line-height: 20px;
 }
 
-.Q8-middle-btn:first-of-type {
+.q8-middle-btn:first-of-type {
   margin-left: 0;
 }
-
-.Q8-middle-btn-common {
-  background-color: #00bcd4;
-}
-
-.Q8-middle-btn-error {
-  background-color: #ff4081;
-}
-
-.Q8-middle-btn-disabled {
-  background-color: #e5e5e5;
-  cursor: default;
-}
-
-.Q8-middle-btn-shasdow {
-  color: #222;
-}
-
 /* large-btn */
-.Q8-large-btn {
+.q8-large-btn {
   padding: 7px 25px;
   border-radius: 7px;
   font-size: 24px;
   line-height: 24px;
 }
 
-.Q8-large-btn:first-of-type {
+.q8-large-btn:first-of-type {
   margin-left: 0;
 }
-
-.Q8-large-btn-common {
-  background-color: #00bcd4;
-}
-
-.Q8-large-btn-error {
-  background-color: #ff4081;
-}
-
-.Q8-large-btn-disabled {
-  background-color: #e5e5e5;
-  cursor: default;
-}
-
-.Q8-large-btn-shasdow {
-  color: #222;
-}
-
 /* form */
 
-.Q8 {
+.form {
   margin-top: 20px;
 }
 
-.Q8-form {
+.q8-form {
   width: 700px;
   margin: 0 auto;
   padding: 20px;
   background-color: #ECF1F2;
 }
-.Q8-form-title {
+.q8-form-title {
   position: relative;
   margin-bottom: 20px;
 }
-.Q8-form-title:before {
+.q8-form-title:before {
   position: absolute;
   top: 50%;
   left: 0;
@@ -133,7 +95,7 @@
   content: "";
 }
 
-.Q8-form-title-text {
+.q8-form-title-text {
   position: relative;
   display: inline-block;
   padding-right: 10px;
@@ -142,40 +104,40 @@
   font-weight: bold;
 }
 
-.Q8-form-main {
+.q8-form-main {
   float: left;
   width: 300px;
 }
 
-.Q8-form-main-items {
+.q8-form-main-items {
   margin-bottom: 20px;
 }
 
-.Q8-form-main-items > li:first-child {
+.q8-form-main-items > li:first-child {
   margin-top: 0;
 }
 
-.Q8-form-main-items > li {
+.q8-form-main-items > li {
   margin-top: 20px;
 }
 
-.Q8-form-main-items-title {
+.q8-form-main-items-title {
   float: left;
   width: 100px;
   line-height: 25px;
   text-align: right;
 }
 
-.Q8-form-main-items-title .required {
+.q8-form-main-items-title .required {
   color: #f00;
 }
 
-.Q8-form-main-content {
+.q8-form-main-content {
   float: right;
   width: 180px;
 }
 
-.Q8-input-init { 
+.q8-input-init { 
   padding: 0;
   background: #fff;
   border: none;
@@ -187,7 +149,7 @@
   appearance: none;
 }
 
-.Q8-input {
+.q8-input {
   width: 100%;
   padding: 5px;
   border-radius: 3px;
@@ -197,11 +159,11 @@
   box-sizing: border-box;
 }
 
-.Q8-input:focus {
+.q8-input:focus {
   box-shadow: 0 0 7px #00BCD4;
 }
 
-.Q8-radio {
+.q8-radio {
   cursor: pointer;
 }
 
@@ -209,13 +171,13 @@
   display: none;
 }
 
-.Q8-radio-text {
+.q8-radio-text {
   position: relative;
   display: inline-block;
   padding: 3px 3px 3px 20px;
 }
 
-.Q8-radio-text:before {
+.q8-radio-text:before {
   position: absolute;
   top: 50%;
   left: 0;
@@ -240,11 +202,11 @@
   content: '';
 }
 
-.Q8-select {
+.q8-select {
   position: relative;
 }
 
-.Q8-select:after {
+.q8-select:after {
   display: block;
   position: absolute;
   top: 4px;
@@ -258,7 +220,7 @@
   pointer-events: none;
 }
 
-.Q8-select-body {
+.q8-select-body {
   width: 100%;
   padding: 5px;
   border-radius: 3px;
@@ -269,18 +231,18 @@
   cursor: pointer;
 }
 
-.Q8-checkbox {
+.q8-checkbox {
   text-align: right;
 }
-.Q8-check-btn {
+.q8-check-btn {
   display: none;
 }
-.Q8-checkbox-text {
+.q8-checkbox-text {
   position: relative;
   display: inline-block;
   padding-left: 24px;
 }
-.Q8-checkbox-text:before {
+.q8-checkbox-text:before {
   position: absolute;
   top: 50%;
   left: 0;
@@ -292,7 +254,7 @@
   content: '';
 }
 
-.Q8-check-btn:checked + .Q8-checkbox-text:after {
+.q8-check-btn:checked + .Q8-checkbox-text:after {
   position: absolute;
   top: 50%;
   left: 6px;
@@ -306,10 +268,10 @@
 }
 
 
-.Q8-main-bottom {
+.q8-main-bottom {
   text-align: right;
 }
-.Q8-main-bottom-btn {
+.q8-main-bottom-btn {
   padding: 0 10px;
   border-radius: 5px;
   background-color: #00BCD4;
@@ -318,15 +280,15 @@
   font-size: 16px;
   line-height: 26px;
 }
-.Q8-main-bottom-btn:active {
+.q8-main-bottom-btn:active {
   background-color: #FFF;
   color: #00BCD4;
 }
-.Q8-side {
+.q8-side {
   float: right;
   width: 380px;
 }
-.Q8-side-text {
+.q8-side-text {
   width: 100%;
   height: 203px;
   padding: 10px;
@@ -336,7 +298,7 @@
   box-sizing: border-box;
   resize: none;
 }
-.Q8-side-text:focus {
+.q8-side-text:focus {
   box-shadow: 0 0 7px #00BCD4;
 }
 
